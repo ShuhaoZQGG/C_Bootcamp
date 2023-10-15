@@ -6,6 +6,7 @@ int main() {
     l is a length modifier that tells printf to expect an argument of type unsigned long.
     u specifies that the argument should be treated as an unsigned integer.
    */
+    // Size of int: sizeof(int) 4, 8 bytes
     printf("Size of int: %lu bytes\n", sizeof(int));
     printf("Size of float: %lu bytes\n", sizeof(float));
     printf("Size of double: %lu bytes\n", sizeof(double));
